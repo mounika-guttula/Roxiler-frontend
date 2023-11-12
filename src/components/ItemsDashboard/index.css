@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.image-size {
+  height: 40px;
+  width: 40px;
+}
+
+.main {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.margin-left {
+  margin-left: 30px;
+  width: 130px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.margin-right {
+  margin-right: 30px;
+  width: 130px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.name {
+  color: cornflowerblue;
+  font-size: 40px;
+}
+
+.inner {
+  background-color: rgb(233, 222, 222);
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+}
+
+.last {
+  color: rgb(85, 173, 173);
+  margin-left: 50px;
+}
+
+.cards {
+  background-color: rgb(146, 243, 227);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* styles.css or add directly in your component file */
+
+.styled-table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr.even {
+  background-color: #f9f9f9;
+}
+
+.styled-table tr.odd {
+  background-color: #ffffff;
+}
+
+.image-size {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.next {
+  background-color: cadetblue;
+  color: brown;
+  border-radius: 6px;
+  margin-left: 20px;
+  border-width: 0px;
+  width: 50px;
+  height: 23px;
+}
+
+.prev {
+  background-color: rgb(95, 121, 160);
+  color: white;
+  border-radius: 6px;
+  margin-left: 30px;
+  border-width: 0px;
+  width: 50px;
+  height: 23px;
+}
